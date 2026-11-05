@@ -1,0 +1,84 @@
+{
+  "candidate_meta": {
+    "alias": "{{CANDIDATE_NAME}}",
+    "contact_placeholder": "{{CANDIDATE_CONTACT}}",
+    "years_of_experience": 13,
+    "education": "计算机科学与技术（本科），福建师范大学 (2007-2011)",
+    "base_city": "成都",
+    "target_modes": ["远程", "成都现场", "混合办公"],
+    "target_roles": [
+      "AI Agent 开发工程师",
+      "AI 全栈开发工程师",
+      "资深前端开发工程师（AI 应用方向）"
+    ]
+  },
+  "hard_constraints": {
+    "health_redlines": [
+      "严禁 996、大小周、狼性加班或常态化通宵赶工（保肾与 8 小时睡眠第一优先级）",
+      "拒绝高压内耗、驻场外包、无明确技术产出的纯打杂岗位",
+      "拒绝纯底层大模型预训练/C++算子优化/纯学术炼丹岗（重仓工程 Harness 与交互落地）"
+    ],
+    "toxic_keywords_blacklist": [
+      "996",
+      "大小周",
+      "单休",
+      "驻场外包",
+      "人力外包",
+      "抗压能力极强",
+      "能接受高强度加班",
+      "2026届校招",
+      "2027届校招",
+      "仅限应届生"
+    ]
+  },
+  "verified_facts": [
+    {
+      "fact_id": "FACT-AI-01",
+      "category": "AI Agent 全栈实战",
+      "title": "AI Era Signals（AI 观点跟踪与信号提取全栈平台）",
+      "period": "2024.11 - 至今",
+      "tech_stack": ["Next.js", "FastAPI", "SQLite", "Ollama", "Python", "TypeScript"],
+      "evidence": "使用 Next.js + FastAPI + SQLite + Ollama (qwen2.5-coder:7b) 独立搭建全栈项目；实现观点提取、五维评估与相关度打分的三阶段 Agent 处理流水线；构建 RSS / Google News 自动化数据抓取与离线批处理脚本。"
+    },
+    {
+      "fact_id": "FACT-AI-02",
+      "category": "Multi-Agent 与上下文工程",
+      "title": "AI 工单分流与人工审批系统 (Ticket Workflow & HITL)",
+      "period": "2024.11 - 至今",
+      "tech_stack": ["Multi-Agent", "Human-in-the-Loop", "Checkpoint", "OpenTelemetry", "Chroma", "BM25"],
+      "evidence": "实现 Multi-Agent 分流与聚合工作流（Dispatcher -> 专员 Agent -> 聚合器）；落地 Human-in-the-Loop (HITL) 人工审核介入与 Checkpoint 状态恢复机制；接入 OpenTelemetry 进行全链路追踪；结合 Ollama Embedding、Chroma 向量库与 BM25 实现混合检索（Hybrid Search）。"
+    },
+    {
+      "fact_id": "FACT-AI-03",
+      "category": "Coding Agent 驾驭工程 (Harness Engineering)",
+      "title": "多 Agent 工具链规约分发与沙箱治理体系",
+      "period": "2025 - 至今",
+      "tech_stack": ["Claude Code", "Codex CLI", "Prompt Caching", "Context Engineering", "Sandbox Governance"],
+      "evidence": "构建跨 Claude Code、Codex CLI、Gemini 的统一 AGENTS.md 规约与软链分发架构；深谙 KV Cache 前缀稳定设计、尾部 <system_hint> 动态状态注入、确定性规则先行与 LLM 兜底的混合容错模式。"
+    },
+    {
+      "fact_id": "FACT-FE-01",
+      "category": "资深前端架构与复杂状态机",
+      "title": "美的金融（数字化创新业务）— 前端技术负责人 / 核心前端工程师",
+      "period": "2020.08 - 2024.11",
+      "tech_stack": ["TypeScript", "Vue", "React", "State Machine", "Component Library", "Performance Optimization"],
+      "evidence": "负责分期金融核心业务（进件、授信、风控审批）前端研发，主导多步骤复杂业务流的状态机管理与异常容错机制；参与内部公共业务组件库与前后端接口契约规范建设，支撑 10+ 后台管理系统的标准化交付；主导路由级按需加载与重型组件拆包治理，并在团队早期引入 GitHub Copilot 辅助研发与单测编写。"
+    },
+    {
+      "fact_id": "FACT-FE-02",
+      "category": "前端工程化迁移与大数据可视化",
+      "title": "中国电子科技网络安全有限公司 — 前端组长 / 核心开发",
+      "period": "2016.03 - 2020.08",
+      "tech_stack": ["Vue", "TypeScript", "AngularJS Migration", "Data Visualization", "Large Log Rendering"],
+      "evidence": "主导团队项目从 AngularJS 到 Vue + TypeScript 的平滑架构迁移，统一脚手架与工程规范；负责网络态势感知平台建设，攻克大日志场景下的分页、虚拟列表与高并发图表渲染性能瓶颈。"
+    },
+    {
+      "fact_id": "FACT-FE-03",
+      "category": "早期移动互联网与框架演进积累",
+      "title": "北京一九零五科技 & 百度91手机助手事业部（成都）— 前端核心开发",
+      "period": "2012.04 - 2016.03",
+      "tech_stack": ["JavaScript", "Vue", "jQuery Migration", "Mobile Web"],
+      "evidence": "参与百度91移动互联网产品前端交付，以及一九零五科技从 jQuery 向现代组件化框架（Vue）的技术栈升级，具备完整的 13 年前端工业演进视野。"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / URL-cached
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs & Temp artifacts
+outputs/*.json
+outputs/*.md
+!outputs/.gitkeep
+
+# Environment & Credentials
+.env
+.env.local
+*.pem
+*.key
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
